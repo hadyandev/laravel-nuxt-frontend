@@ -1,19 +1,16 @@
 <template>
   <div class="container">
     <h1>Nuxt User</h1>
-    <p>Find User!</p>
-    <input type="text" v-model="id">
-    <button @click="loadUser">Load User</button>
+    <div class="form-group">
+      <label for="findUser">Find User</label>
+      <input type="text" class="form-control" id="findUser" placeholder="Find User" v-model="id">
+    </div>
+    <button type="submit" class="btn btn-primary" @click="loadUser">Submit</button>
   </div>
 </template>
 
 <script>
 export default {
-  head() {
-    return {
-      title: "Users"
-    };
-  },
   data() {
     return { id: "" };
   },

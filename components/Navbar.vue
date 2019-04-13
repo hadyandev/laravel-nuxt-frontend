@@ -14,7 +14,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item active">
+        <li class="nav-item">
           <nuxt-link to="/" class="nav-link">
             <i class="fas fa-home"></i> Home
           </nuxt-link>
@@ -22,6 +22,11 @@
         <li class="nav-item">
           <nuxt-link to="/users" class="nav-link">
             <i class="fas fa-users"></i> Users
+          </nuxt-link>
+        </li>
+        <li class="nav-item">
+          <nuxt-link to="/posts" class="nav-link">
+            <i class="fas fa-scroll"></i> Posts
           </nuxt-link>
         </li>
       </ul>
