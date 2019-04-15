@@ -1,10 +1,10 @@
-# laravel-nuxt-frontend
+# laravel-bootstrap
 
 > My prime Nuxt.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 

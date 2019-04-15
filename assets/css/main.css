@@ -1,6 +1,6 @@
 .jumbotron {
   border-radius: 0px;
-  background-image: url("https://www.awn.com/sites/default/files/styles/original/public/image/featured/1031605-makoto-shinkai-shines-screening-appearance-your-name.jpg?itok=XPsGeuQe");
+  background-image: url("/static/meliodas.jpg");
   height: 150px;
   background-size: cover;
 }

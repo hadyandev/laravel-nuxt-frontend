@@ -1,11 +1,20 @@
 <template>
   <div class="container">
     <h1>Nuxt User</h1>
-    <div class="form-group">
-      <label for="findUser">Find User</label>
-      <input type="text" class="form-control" id="findUser" placeholder="Find User" v-model="id">
-    </div>
-    <button type="submit" class="btn btn-primary" @click="loadUser">Submit</button>
+    <form>
+      <div class="form-group">
+        <label for="findUser">Find User</label>
+        <input
+          type="text"
+          class="form-control"
+          id="findUser"
+          placeholder="Find User"
+          v-model="id"
+          required
+        >
+      </div>
+      <button type="submit" class="btn btn-primary" @click="loadUser">Submit</button>
+    </form>
   </div>
 </template>
 
@@ -18,6 +27,11 @@ export default {
     loadUser() {
       this.$router.push(`/users/${this.id}`);
     }
+  },
+  head() {
+    return {
+      title: "Nuxt Users"
+    };
   }
 };
 </script>
