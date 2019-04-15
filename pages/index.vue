@@ -2,7 +2,7 @@
   <div class="container">
     <h1>Hello World!</h1>
     <no-ssr>
-      <v-select v-model="selected" :options="['Vue.js','React']" class="form-control"></v-select>
+      <v-select v-model="selected" :options="['Vue.js','React', 'Angular']"></v-select>
     </no-ssr>
   </div>
 </template>

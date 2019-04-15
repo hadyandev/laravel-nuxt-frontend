@@ -1,4 +1,4 @@
-# laravel-bootstrap
+# nuxt-bootstrap
 
 > My prime Nuxt.js project
 
